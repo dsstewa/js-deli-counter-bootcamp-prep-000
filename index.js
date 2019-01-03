@@ -24,7 +24,7 @@ function currentLine(katzDeliLine) {
     return "The line is currently empty."
   } else {
     
-    for (i = 0; i < count + 1; i++) {
+    for (i = 0; i <= count; i++) {
       cLine.push(i +1 katzDeliLine[i])
     }
     
