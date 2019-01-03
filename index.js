@@ -22,7 +22,7 @@ function currentLine(katzDeliLine) {
   if (count < 1) {
     return "The line is currently empty."
   } else {
-    cLine.push(`1.${katzDeliLine[0]}`)
+    cLine.push(`1. ${katzDeliLine[0]}`)
     for (let i = 1; i < count; i++) {
       cLine.push(` ${i +1}. ${katzDeliLine[i]}`)
     }
