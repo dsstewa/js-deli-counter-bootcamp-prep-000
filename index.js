@@ -25,12 +25,11 @@ function currentLine(katzDeliLine) {
   } else {
     
     for (i = 0; i <= count; i++) {
-      cLine.push(i +1 katzDeliLine[i])
+      cLine.push(katzDeliLine[i])
     }
     
     
-    
-          return `The line is currently: ${katzDeliLine[0]}. ${katzDeliLine[i]}`)
+  
     }
   }
   }
